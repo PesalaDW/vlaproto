@@ -36,21 +36,6 @@ Fully virtual (no real hardware)
 
 Expandable to egocentric views, multi-step actions, or video inputs
 
-📎 Dependencies
-Python 3.10+
-
-PyBullet
-
-OpenCV
-
-Transformers (HuggingFace)
-
-CLIP or BLIP2 (for vision-language embedding)
-
-# Mini Vision-Language-Action (VLA) System: Virtual Robotics in PyBullet
-
-This project is a minimal working prototype of a fully virtual Vision-Language-Action (VLA) model. The agent is able to perceive a virtual scene, understand a natural language instruction, and carry out a physical action in simulation.
-
 ## 💡 Features
 - PyBullet-based 3D simulation
 - Visual input (RGB camera feed)
@@ -64,6 +49,17 @@ This project is a minimal working prototype of a fully virtual Vision-Language-A
 - Fusion: MLP or Transformer
 - Action Decoder: MLP → Joint commands
 - Simulator: PyBullet (robot + scene)
+
+📎 Dependencies
+Python 3.10+
+
+PyBullet
+
+OpenCV
+
+Transformers (HuggingFace)
+
+CLIP or BLIP2 (for vision-language embedding)
 
 ## 🚀 Getting Started
 Clone the repo and run:
