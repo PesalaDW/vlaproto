@@ -63,4 +63,6 @@ while True:
     2) Don't see the balls or cubes spawned.
     3) Some errors/warnings like things noted on the command line. 
 141: Changed line 46 to list(color...) to try fix error 3, which Chat caught without me telling about that. --> This fixed it!!
+    Some more fixes:
+        1) On the white table randomize all the objects every time the code is run.
 """
